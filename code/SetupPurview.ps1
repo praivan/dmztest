@@ -59,3 +59,8 @@ foreach ($purviewRootCollectionAdmin in $PurviewRootCollectionAdmins) {
         -AccountName $purviewAccountName `
         -ObjectId $purviewRootCollectionAdmin
 }
+
+Install-Module `
+    -Name Az.Purview `
+    -Repository PSGallery `
+    -Force
