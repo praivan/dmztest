@@ -49,7 +49,7 @@ if ($SetPurviewAccountAsDefault) {
     # NOT Set Purview Account as Default in Tenant
     Write-Output "NOT Setting Purview Account as Default in Tenant"
 }
-
+#added comment for bug.hr
 foreach ($purviewRootCollectionAdmin in $PurviewRootCollectionAdmins) {
     # Set Purview Root Collection Admin
     Write-Output "Setting Purview Root Collection Admin '${purviewRootCollectionAdmin}'"
